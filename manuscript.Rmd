@@ -1,0 +1,170 @@
+---
+title: "Impact of Freshwater Invader, Water Hyacinth (*Eichhornia* *Crassipes*) on Water Quality: A Meta-analysis Approach"
+author: "Rohit Jha"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+bibliography: ref.bib
+---
+
+
+\footnotesize 
+
+
+
+^1^Department of Biological Sciences, Louisiana State University, Baton Rouge, LA, USA  
+^2^Center for Computation & Technology, Louisiana State University, Baton Rouge, LA, USA
+
+
+
+\* **Corresponding author**, email: rohitrajjh@gmail.com; 437 Life Science Building, Baton Rouge, LA 70803
+
+\normalsize
+
+
+
+**Running headline**: Water hyacinth impacts on water quality
+
+
+
+**Abstract**: Water hyacinth is one of the most prevalent and noxious freshwater invasive macrophytes. With its spread over 70 countries across five continents, this species is causing several adverse consequences on the invaded system. Although this weed is known to damage physical, chemical, biological and socio-economic aspects associated with the water system, there are a few studies that documents the consistency of impacts across systems. This study was designed to document and analyze the impacts water hyacinth is showing. In this study we focus on the impacts on water quality parameters. I searched for literature with data of control and impacted water system in Web of Science, Science Direct and Google Scholar. I used Meta package to quantify the influence on water hyacinth on dissolved oxygen, temperature, nitrogen and pH of the invaded system. The result shows that dissolved oxygen in the invaded system is consistently low. All other parameters also showed a decrements but the impact was not as consistent as it was in the case of dissolved oxygen. This could be due to the limited data that we could collect for the analyses.
+
+\clearpage
+
+
+
+# Introduction  
+
+Plants with the properties to propagate rapidly and vegetatively have potential to be invasive [@masifwa2001impact]. Invasive plants can bring a lot of disturbance in ecosystem functioning and nutrient balance [@lansdown2016review]. They are potent in degrading the quality of water by disturbing the flow and are found altering the primary productivity and causing problem in harvesting the crops [@zenetos2009elnais]. Plant invaders have capabilities of causing disturbances in the ecosystem by altering earlier implemented flood control measures [@spencerweed]. Out of many freshwater plant invaders, water hyacinth (*Eichhornia* *crassipes*) is one of the most noxious. The list produced by IUCN Invasive Species Specialist Group claims water hyacinth to be one of the worst 100 invasive species of the world and it is one of the four aquatic plants species and one of the two freshwater plant species in the list [@lowe2000100].   
+
+
+Water hyacinth is freshwater aquatic native to South America [@villamagna2010ecological]. Water hyacinth roots floats near the surface of water which makes it easier for them to get established in water resource with variable depth [@gezie2018potential]. Fresh waters in tropical and sub-tropical regions which have high concentration of nutrients due agricultural run offs are most potent of being invaded by water hyacinth [@villamagna2010ecological]. Water hyacinth can easily get established in the area that lack sufficient aquatic macrophytes and is equally potent in replacing the native species through competition [@wilson2005determinants]. The absence of species like *Neochetina* *eichhorniae* and *Neochetina* *bruchi* which feed upon hyacinth in its native habitats further assists it in being very dominating invaders [@wilson2005determinants].  Fresh waters in 70 countries across five continents have been invaded by water hyacinth. Current scenario of climate change is further expected to trigger its expansion to greater latitudinal zone [@hellmann2008five; @rahel2008assessing]. Once it gets established as invasive, Water hyacinth is capable of causing momentous environmental damage [@gezie2018potential].  
+
+
+One of the most studied impacts of this weed is the impact on water quality. Most previous studies related to water hyacinth impact on water quality have focused on the impacts caused due to mat like structure formed by the interlocking of the roots of the plants [@villamagna2010ecological]. The common impacts seen on quality of water are decrease in phytoplankton production and lowering of the dissolved oxygen [@brendonck2003impact]. The lowering of dissolved oxygen is caused due to mat like structure of water hyacinth which blocks the light reaching the surface of water that facilitates photosynthesis by phytoplankton [@villamagna2010ecological]. Due to the formation of net like structure, water hyacinth are also capable of stabilizing temperature and PH level in the lotic zone of the water which prevents the formation of hierarchical layers [@giraldo2002potential] which is fundamental property of freshwater. Additionally, the complex root structure of water hyacinth increases the sedimentation rate in the invaded area (Gopal 1987). Studies have also shown increase in higher rate of evapotranspiration due to large surface area of leaves of hyacinth than that from water surface [@gopal1987water].  
+
+
+Apart from having several adverse impacts, there are couple of positive impacts of this weed. Most notably is their capacity to purify the water of the invaded region. In California, leaf tissues of water hyacinth was found with mercury which was also present in the soil sediment below, giving the indication that if harvested properly, water hyacinth can help reduce mercury content in the water bodies [@greenfield2007mechanical].  Similarly this nutrient absorbing mechanism by water hyacinth can be used in treatment of sewage disposing water [@ho1994growth]. As nutrient absorption by water hyacinth depend upon water hyacinth coverage and its density in the water body [@pinto1999contribution], the net benefits gained from nutrient absorption is also subjective to the damage caused by water hyacinth coverage  [@villamagna2010ecological].  
+
+
+Amidst the talk going around the effect of one of the most notorious freshwater invaders, there is not sufficient knowledge regarding their impacts. Although there are some review works which quantify the impacts of freshwater invaders on physical, chemical, and biological aspect of the invaded system, a systematic work like that for water hyacinth is lacking. Therefore, we know very little about the consistency of impacts of this invasive weed. Keeping the situation in mind this work was initially designed to documents and analyze the existing data about water hyacinth impacts on several systems. However, the lack of existing works about the impacts on macroinvertebrates, water birds, and fishes limited the scope of this meta-analysis. This review paper focuses on quantifying and summarizing the impacts of water hyacinth on water quality parameters. I expected the parameters like dissolved oxygen and temperature which can be influenced by the presence of water hyacinth alone will show consistent decreasing pattern across studies. I also expected that the parameters like pH and nitrogen presence which dependent upon factors like presence of other vegetation, presence/absence of macroinvertebrate will not show a consistent increasing or decreasing pattern. 
+
+
+
+# Methods and Materials  
+
+## Literature search  
+
+I conducted a detail search for the literature which investigated the impacts of water 
+hyacinth as freshwater invader. Initially, I tried to look at their impacts on other macrophytes, fish, macroinvertibrates and different aspect of water quality. I searched in Web of Science with group of words and phrases that could best match the works that I was looking for. "water hyacinth" and "long term" and "impacts", “water quality”, “effects”, “water hyacinth infestation”, “water hyacinth introduction”, “dissolved oxygen”, “ecological impacts”, “temperature”, “nitrogen”, “phosphorus”, “ph”. I used these words and phrases both alone and in groups to determine the searching parameters. After first round of detail search was done through the articles suggested by Web of Science, I also looked through the references of papers sorted out from Web of Science.  
+
+### Criterai for inclusion  
+
+To be included in the final analysis of the research the papers had to meet a few requirements. First, it should have been a original research article. No review articles were included in the final analysis carried out in this research. Next, the articles should have quantitative data about the impacted system. No studies with only qualitative analysis of the impacts was incorporated. The studies should also report a control system and associated values for the parameters from the control system.  
+
+### Final data extraction  
+
+The data were extracted from only those papers that made to final cut-off. I got the dataset that clearly mentioned the mean and standard deviation measure for the impacted parameters. I also complied data about the sample size for each experiment setup for control and treatment group.  
+
+## Analysis  
+
+The basic explorartion of the data was done with descriptive statistics in R. Plots and maps was used to explore the data. I used Meta Package [@schwarzer2015fixed] in R for quantitative analysis of the data.  
+
+# Result  
+
+The initial search with the code words in Web of Science yielded 435 papers. After going through the titles, abstracts and key words of those papers, 78 papers were sorted out for detail search. 17 papers out of those 78 had data in the format it was required. I got six more data sets from the papers that that were sorted out from the references mentioned in the original 17 papers. Altogether I had data sets from 23 different papers. As some studies had multiple treatments for some impacts, the number of data sets for control and treatments for each parameter of water quality were variable and usually greater than 23 which is the number of papers that yielded the data.  
+
+## Distribution of studies  
+
+Final cut-off to the analysis was made by 23 studies. These studies were distributed across four continents and 12 countries. Africa alone contributed 12 studies for this meta-analysis. There were no studies from Australia and Europe. The detail of the distribution of the study can be seen in Fig.1.  
+
+
+![Map of World Showing the Distribution of Studies](/Users/rohit/github/manuscript_template/Doc/map.png)  
+
+## Impact on dissolved oxygen  
+
+This study shows that there is consistent decrease in dissolved oxygen in the invaded system than compared to controlled system. The figure below (Fig.2) shows the change between the mean value for dissolved oxygen for control and invaded system respectively revealed the same. For most studies we can see the decreasing pattern of dissolved oxygen.   
+
+
+![ Ggplot showing the difference in mean values for dissolved oxygen in control and invaded system](/Users/rohit/github/manuscript_template/Doc/oxy gg.png)  
+
+\clearpage
+
+Similarly, forest plot (Fig.3) also presents similar conclusion. The effect size for random effect model has a value of -2.19 indicating decrease in mean value of dissolved oxygen. Consistent negative value for 95% Confidence Intervals (CIs) also indicate that dissolved oxygen decrease in water bodies invaded by water hyacinth. 
+
+
+![Forest plot showing the standardized effect across studies and Mean Standardized Difference (MSD) for dissolved oxygen in control and invaded system](/Users/rohit/github/manuscript_template/Doc/oxy forest.png)
+
+\clearpage
+
+
+## Impact on temperature  
+
+Like in dissolved oxygen, temperature also shows decreasing trend in the water bodies that have been invaded by water hyacinth. For most of the studies we can see that that temperature has gone down post invasion (Fig.4).  
+
+
+
+![Ggplot showing the difference in mean values for temperature in control and invaded system](/Users/rohit/github/manuscript_template/Doc/temp gg.png)
+
+\clearpage
+
+The effect size value of -0.15 also indicate decreasing trend for temperature in invaded systems (Fig.5). However, the 95% CIs reveal that the decrement is not consistent.  
+
+
+
+![Forest plot showing the standardized effect across studies and Mean Standardized Difference (MSD) for temperature in control and invaded system](/Users/rohit/github/manuscript_template/Doc/temp forest.png)
+
+\clearpage
+
+## Impact on nitrogen  
+
+The impact of water hyacinth invasion on nitrogen is not consistent. Some studies show a drastic decrease in nitrogen post invasion whereas some show a gradual increase (Fig.6). The random effect model obtained from forest plot also reveal the same.  
+
+
+![Ggplot showing the difference in mean values for nitrogen in control and invaded system](/Users/rohit/github/manuscript_template/Doc/nitro gg.png)  
+
+
+
+\clearpage
+
+Although the mean value is negative indicating decreasing nitrogen concentration post invasion, the 95% CIs have both positive and negative value indicating the inconsistency of the impacts (Fig.7).  
+
+
+
+![Forest plot showing the standardized effect across studies and Mean Standardized Difference (MSD) for nitrogen in control and invaded system](/Users/rohit/github/manuscript_template/Doc/nitro forest.png)  
+
+\clearpage
+
+
+## Impact on pH   
+
+The impact on pH across systems were also found to be inconsistent. In the plot we can clearly see the increasing and decreasing pattern of pH across systems (Fig.8).  
+
+
+
+![Ggplot showing the difference in mean values for pH in control and invaded system](/Users/rohit/github/manuscript_template/Doc/ph ggplot.png)
+
+\clearpage
+
+
+Same is reflected in the respective forest plot (Fig.9). Although the mean effect size is negative, 95% CIs have both negative and positive value indicating the inconsistency of the impact.
+
+
+![Forest plot showing the standardized effect across studies and Mean Standardized Difference (MSD) for pH in control and invaded system](/Users/rohit/github/manuscript_template/Doc/ph forest plot.png)  
+
+\clearpage
+
+
+# Discussion and Conclusion  
+
+The findings support our prediction that water hyacinth would impact of quality of water across parameters. The findings are also in a line of other predictions that the impacts will not be consistent for all the parameters. For example, we can see in case of dissolved oxygen the impact is consistent and the water in invaded system always reported less dissolved oxygen than the control one. Similarly, we see consistent pattern of decrements in the temperature post invasion. However, the impacts on nitrogen and pH are not consistent. They report increment from some study systems whereas decrements for other study systems.  
+
+As water hyacinth block the light, through massive spreading, phytoplankton and submerged vegetation are being prevented from getting enough energy require for photosynthesis [@wilson2005determinants]. This decreases the amount of dissolved oxygen in the invaded system. Works have also suggested that the invaded systems experience a decrease in temperature of water. This is because of the roots of water hyacinth which form as mat-like structure on the surface of water preventing the penetration of light [@tobias2019impacts]. Regarding the change in nitrogen content of invaded system, there are findings suggesting that there can be both increase and decrease in the nitrogen post invasion depending upon the water level and other vegetation presence [@gezie2018potential]. This work found that on most instances pH level decrease post invasion. However, for pH in the invaded system, there are studies claiming that the pH will increase post invasion if the soil is acidic. The roots of water hyacinth provides a huge surface area for the microorganism to attach, which increases the potential for decomposing of organic matter and as a result there is increase the pH of the soil [@masifwa2001impact].   
+
+There are very few studies that compare the parameters in water bodies pre and post water hyacinth invasion [@abu1974influence]. There can be questions raised to results and conclusions derived from meta-analyses of limited data. This is a major limitation of this work. I still believe the findings gives an indication of impacts that water hyacinth can have on invaded system.  
+
+\clearpage
+
+# References
+
